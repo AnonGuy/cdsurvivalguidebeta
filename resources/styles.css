@@ -172,6 +172,10 @@ li{
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
+div{
+  width: 95%;
+  margin: auto;
+}
 
 a.hovered:after{
   position: absolute;
