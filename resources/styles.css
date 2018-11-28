@@ -4,9 +4,9 @@
 body {
   background-color: #0f1723;
   font-family: 'Roboto Mono', monospace;
-  color: #ffffff;
+  color: white;
   margin: 1%;
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 .linebreak{
   border-bottom: 3px solid var(--color);
@@ -153,25 +153,11 @@ body {
 #menu > ul > li > a:hover:after {
   background: var(--color);
 }
-
-h1{
-  font-family: 'Roboto Mono', monospace; 
-  color: white;
+a.subtitle {
+  font-size: 1.2em;
 }
-
-h2{
-  font-family: 'Roboto Mono', monospace; 
-  color: white;
-}
-
-h3{
-  font-family: 'Roboto Mono', monospace; 
-  color: white;
-}
-
-li{
-  font-family: 'Roboto Mono', monospace;
-  color: white;
+a.content {
+  font-size: 1em;
 }
 a.hovered:after{
   position: absolute;
