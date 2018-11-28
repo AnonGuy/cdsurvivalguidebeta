@@ -33,18 +33,20 @@ body {
 .more{
   --color:#705a8f;
 }
-.spoiler{
+a.spoiler{
   background-color: #000000;
   color: #000000;
 }
-.assess-hints{
+a.assess-hints{
   padding-left: 5vw;
 }
-.placeholder{
+a.placeholder{
   text-align: center;
   font-size: 1em;
 }
-
+a.announcement {
+  font-size: 2.5em;
+}
 #header {
   text-align: center;
 }
