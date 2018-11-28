@@ -5,6 +5,7 @@ body {
   background-color: #0f1723;
   font-family: 'Roboto Mono', monospace;
   color: #ffffff;
+  margin: 1%;
 }
 .linebreak{
   border-bottom: 3px solid var(--color);
@@ -172,14 +173,9 @@ li{
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
-div{
-  width: 95%;
-  margin: auto;
-}
-
 a.hovered:after{
   position: absolute;
-  left: 0;
+  left: 0;  
   bottom: 0;
   right: 0;
   z-index: -1;
