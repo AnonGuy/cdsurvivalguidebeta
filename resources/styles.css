@@ -6,6 +6,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: #ffffff;
   margin: 1%;
+  font-size: 1vw;
 }
 .linebreak{
   border-bottom: 3px solid var(--color);
