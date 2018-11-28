@@ -154,10 +154,10 @@ body {
   background: var(--color);
 }
 a.subtitle {
-  font-size: 1.2em;
+  font-size: 4em;
 }
 a.content {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 a.hovered:after{
   position: absolute;
