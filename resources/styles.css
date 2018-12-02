@@ -7,6 +7,11 @@ body {
   color: white;
   margin: 1%;
 }
+.logo {
+  width: 100%;
+  max-width: 407px;
+  max-hight: 98px;
+}
 .linebreak{
   border-bottom: 3px solid var(--color);
 }
@@ -49,6 +54,11 @@ a.announcement {
 }
 #header {
   text-align: center;
+  font-size: 2em;
+}
+#header > p.tagline {
+  z-index: 1;
+  padding-top: -50px;
 }
 
     #menu,
@@ -108,9 +118,9 @@ a.announcement {
 }
 
 #menu > ul > li > a {
-  font-size: 2vw;
+  font-size: 90%;
   z-index: 2;
-  padding: 18px 25px 12px 25px;
+  padding: 18px calc(1vw) 12px calc(1vw);
   font-weight: 400;
   text-decoration: none;
   color: #ffffff;
