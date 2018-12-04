@@ -35,7 +35,10 @@ body {
   --color:#c04b4e;
 }
 
-.more{
+.resources{
+  --color:#705a8f;
+}
+.articles{
   --color:#705a8f;
 }
 a.spoiler{
@@ -45,7 +48,7 @@ a.spoiler{
 a.assess-hints{
   padding-left: 5vw;
 }
-a.placeholder{
+div.placeholder{
   text-align: center;
   font-size: 1em;
 }
@@ -136,7 +139,7 @@ a.announcement {
 }
 
 #menu > ul > li > a {
-  font-size: 90%;
+  font-size: calc(0.6vw + 8px);
   z-index: 2;
   padding: 18px 1vw 12px 1vw;
   font-weight: 400;
