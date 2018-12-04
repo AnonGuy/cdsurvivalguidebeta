@@ -139,7 +139,7 @@ a.announcement {
 }
 
 #menu > ul > li > a {
-  font-size: calc(0.6vw + 8px);
+  font-size: calc(0.35vw + 9px);
   z-index: 2;
   padding: 18px 1vw 12px 1vw;
   font-weight: 400;
